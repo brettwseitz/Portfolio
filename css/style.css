@@ -1,0 +1,37 @@
+body{
+    background: rgb(250, 250, 250)
+}
+
+body,html{
+    overflow: hidden !important;
+}  
+
+h1{
+    color: rgb(51, 51, 51);
+    font-family: 'Oswald', sans-serif;
+    font-size: 65px;
+}
+
+span{
+    color: rgb(199, 43, 43);
+}
+
+.project-images{
+    height: 300px;
+    width: 450px;
+}
+
+.card-img-overlay {
+    background-color: rgba(51, 51, 51, 0.85);
+    border-color: rgba(51, 51, 51, 0.85);
+}
+
+.icon-group{
+
+}
+
+#intro{
+}
+
+#projects{
+}
