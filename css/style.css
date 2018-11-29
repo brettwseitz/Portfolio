@@ -2,36 +2,117 @@ body{
     background: rgb(250, 250, 250)
 }
 
-body,html{
-    overflow: hidden !important;
-}  
+span{
+    color: #c72c2c;
+}
 
-h1{
+#intro{
+
+}
+
+#intro h1{
     color: rgb(51, 51, 51);
     font-family: 'Oswald', sans-serif;
     font-size: 65px;
 }
 
-span{
-    color: rgb(199, 43, 43);
-}
-
-.project-images{
-    height: 300px;
-    width: 450px;
-}
-
-.card-img-overlay {
-    background-color: rgba(51, 51, 51, 0.85);
-    border-color: rgba(51, 51, 51, 0.85);
-}
-
-.icon-group{
+#about-me{
 
 }
 
-#intro{
+#about-me h1{
+    font-size: 50px;
+    color: rgb(51, 51, 51);
+    font-family: 'Oswald', sans-serif;
 }
 
 #projects{
+
 }
+
+#projects p{
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
+    opacity: 0;
+    transition: 1s ease;
+    opacity: 1;
+    font-family: 'Oswald', sans-serif;
+}
+
+#projects .overlay{
+    display: inline-flex;
+    position: relative;
+    float: left;
+}
+
+#projects img{
+    width: 350px;
+    height: 350px;
+}
+
+#projects .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background: black;
+    transition: .5s ease;
+    opacity: .9;
+
+}
+
+#projects .overlay:hover .content{
+    opacity: 0;
+}
+
+#projects .overlay:hover p{
+    opacity: 0;
+}
+
+@media (min-width: 576px) {  
+    #projects .container .row{
+        max-width: 100%;
+    }
+    #projects .container .col{
+        max-width: 100%;
+    }
+
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    #projects .container .row{
+        max-width: 100%;
+    }
+    #projects .container .col{
+        max-width: 100%;
+    }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #projects .container .row{
+        max-width: 700px;
+    }
+    #projects .container .col{
+        max-width: 700px;
+    }
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    #projects .container .row{
+        max-width: 1050px;
+    }
+    #projects .container .col{
+        max-width: 1050px;
+    }
+}
+ 
