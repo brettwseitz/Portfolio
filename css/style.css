@@ -13,7 +13,7 @@ span{
 #intro h1{
     color: rgb(51, 51, 51);
     font-family: 'Oswald', sans-serif;
-    font-size: 65px;
+    font-size: 55px;
 }
 
 #about-me{
@@ -21,7 +21,7 @@ span{
 }
 
 #about-me h1{
-    font-size: 50px;
+    font-size: 30px;
     color: rgb(51, 51, 51);
     font-family: 'Oswald', sans-serif;
 }
@@ -31,28 +31,31 @@ span{
 }
 
 #projects p{
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     position: absolute;
-    top: 5%;
-    left: 5%;
-    right: 5%;
-    bottom: 5%;
     opacity: 0;
-    transition: 1s ease;
+    transition: .4s ease;
     opacity: 1;
     font-family: 'Oswald', sans-serif;
+    text-align: center;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
 }
 
 #projects .overlay{
     display: inline-flex;
     position: relative;
     float: left;
+    height: 100%;
+    width: 100%;
 }
 
 #projects img{
-    width: 350px;
-    height: 350px;
+    width: 100%;
+    height: 100%;
 }
 
 #projects .content{
@@ -63,8 +66,8 @@ span{
     bottom: 0;
     opacity: 0;
     background: black;
-    transition: .5s ease;
-    opacity: .9;
+    transition: .4s ease;
+    opacity: .95;
 
 }
 
@@ -77,42 +80,57 @@ span{
 }
 
 @media (min-width: 576px) {  
-    #projects .container .row{
-        max-width: 100%;
-    }
-    #projects .container .col{
-        max-width: 100%;
+    #projects p{
+        font-size: 25px;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        right: 5%;
+        bottom: 5%;
     }
 
+    #about-me h1{
+        font-size: 50px;
+    }
 }
  
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
-    #projects .container .row{
-        max-width: 100%;
-    }
-    #projects .container .col{
-        max-width: 100%;
+    #projects p{
+        font-size: 25px;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        right: 5%;
+        bottom: 5%;
     }
 }
  
-/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    #projects .container .row{
-        max-width: 700px;
+    #projects p{
+        font-size: 30px;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        right: 5%;
+        bottom: 5%;
     }
-    #projects .container .col{
-        max-width: 700px;
+    #intro h1{
+        font-size: 70px;
     }
 }
  
-/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
-    #projects .container .row{
-        max-width: 1050px;
+    #projects p{
+        font-size: 35px;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        right: 5%;
+        bottom: 5%;
     }
-    #projects .container .col{
-        max-width: 1050px;
+
+    #intro h1{
+        font-size: 80px;
     }
 }
  
