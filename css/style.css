@@ -16,18 +16,42 @@ span{
     font-size: 55px;
 }
 
+#intro img{
+    transition: transform .2s; 
+}
+
+
+#intro img:hover{
+    transform: scale(1.2)
+}
+
 #about-me{
 
 }
 
 #about-me h1{
-    font-size: 30px;
+    font-size: 35px;
     color: rgb(51, 51, 51);
     font-family: 'Oswald', sans-serif;
 }
 
 #projects{
 
+}
+
+#projects .title{
+    font-size: 30px;
+    color: #c72c2c;
+    position: absolute;
+    opacity: 0;
+    transition: .4s ease;
+    opacity: 1;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
 }
 
 #projects p{
@@ -38,8 +62,8 @@ span{
     transition: .4s ease;
     opacity: 1;
     font-family: 'Oswald', sans-serif;
-    text-align: center;
-    top: 10%;
+    text-align: left;
+    top: 30%;
     left: 10%;
     right: 10%;
     bottom: 10%;
@@ -83,6 +107,21 @@ span{
     #projects p{
         font-size: 25px;
         position: absolute;
+        top: 25%;
+        left: 5%;
+        right: 5%;
+        bottom: 5%;
+    }
+
+    #projects .title{
+        font-size: 35px;
+        color: #c72c2c;
+        position: absolute;
+        opacity: 0;
+        transition: .4s ease;
+        opacity: 1;
+        font-family: 'Oswald', sans-serif;
+        text-align: left;
         top: 5%;
         left: 5%;
         right: 5%;
@@ -90,7 +129,7 @@ span{
     }
 
     #about-me h1{
-        font-size: 50px;
+        font-size: 70px;
     }
 }
  
@@ -98,6 +137,21 @@ span{
     #projects p{
         font-size: 25px;
         position: absolute;
+        top: 25%;
+        left: 5%;
+        right: 5%;
+        bottom: 5%;
+    }
+
+    #projects .title{
+        font-size: 35px;
+        color: #c72c2c;
+        position: absolute;
+        opacity: 0;
+        transition: .4s ease;
+        opacity: 1;
+        font-family: 'Oswald', sans-serif;
+        text-align: left;
         top: 5%;
         left: 5%;
         right: 5%;
@@ -109,11 +163,27 @@ span{
     #projects p{
         font-size: 30px;
         position: absolute;
+        top: 25%;
+        left: 5%;
+        right: 5%;
+        bottom: 5%;
+    }
+
+    #projects .title{
+        font-size: 40px;
+        color: #c72c2c;
+        position: absolute;
+        opacity: 0;
+        transition: .4s ease;
+        opacity: 1;
+        font-family: 'Oswald', sans-serif;
+        text-align: left;
         top: 5%;
         left: 5%;
         right: 5%;
         bottom: 5%;
     }
+
     #intro h1{
         font-size: 70px;
     }
@@ -123,11 +193,27 @@ span{
     #projects p{
         font-size: 35px;
         position: absolute;
+        top: 20%;
+        left: 5%;
+        right: 5%;
+        bottom: 5%;
+    }
+
+    #projects .title{
+        font-size: 45px;
+        color: #c72c2c;
+        position: absolute;
+        opacity: 0;
+        transition: .4s ease;
+        opacity: 1;
+        font-family: 'Oswald', sans-serif;
+        text-align: left;
         top: 5%;
         left: 5%;
         right: 5%;
         bottom: 5%;
     }
+    
 
     #intro h1{
         font-size: 80px;
